@@ -10,13 +10,13 @@
 # 4. Inputs
 - Data contracts / sample JSON: {list or link}
 - Tech stack
-  - Language: **Java (latest LTS / GA)** — JDK 21+ preferred
+  - Language: {**Java (latest LTS / GA)** — JDK 21+ preferred}
   - Frameworks: {Spring Boot 3, Jakarta EE 10, Micronaut …}
   - Build: {Maven ≥ 3.9, Gradle ≥ 8}
   - Deployment: {Docker, K8s, bare metal, serverless …}
 
 # 5. Desired Output
-- Java code files that:
+{- Java code files that:
   - Use latest language features (`record`, pattern matching, sealed classes, etc.)
   - Apply **SOLID** principles & **clean code** (meaningful names, small methods)
   - Are **null-safe** (`Optional`, `Map.of`, `List.of`, etc.) — *no* raw `null` checks
@@ -31,10 +31,10 @@
   - Present **readable, efficient conditionals** (e.g., guard clauses, `switch` with pattern matching)
 - Deliverables:
   - Source code (.java, .xml/.gradle)
-  - Optional: unit tests, Dockerfile, Swagger /OpenAPI spec
+  - Optional: unit tests, Dockerfile, Swagger /OpenAPI spec}
 
 # 6. Constraints & Requirements
-- Must compile & run on JDK {state version}
+- Must compile & run on {JDK state version}
 - Thread-safety where relevant (explain choices)
 - Avoid legacy APIs and unnecessary third-party libs
 - Follow {company style guide or Google Java Style} if supplied
